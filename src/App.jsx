@@ -19,8 +19,7 @@ function App() {
       <button onClick={darOLike}>Like</button>
     
       <p>O que você digitou no input: {input}</p>
-      <input value={input} onChange={event => setInput(event.target.value)}/>
-      <p></p>
+      <input value={input} onChange={event => setInput(event.target.value)}/>      
     </div>
   )
 }
