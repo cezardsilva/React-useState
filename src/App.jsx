@@ -20,6 +20,7 @@ function App() {
     
       <p>O que você digitou no input: {input}</p>
       <input value={input} onChange={event => setInput(event.target.value)}/>
+      <p></p>
     </div>
   )
 }
